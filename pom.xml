@@ -72,6 +72,7 @@
     <jenkins.insaneHook />
     <jenkins-test-harness.version>1868.v03b_7c6673e2e</jenkins-test-harness.version>
 
+    <hamcrest.version>2.2</hamcrest.version>
     <hpi-plugin.version>3.35</hpi-plugin.version>
     <stapler-plugin.version>1.20</stapler-plugin.version>
 
@@ -165,8 +166,13 @@
       </dependency>
       <dependency>
         <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest</artifactId>
+        <version>${hamcrest.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest-core</artifactId>
-        <version>2.2</version>
+        <version>${hamcrest.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jenkins-ci</groupId>
